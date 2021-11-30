@@ -49,3 +49,46 @@ print(result_no_division_loss)
 
 result_division_loss = item_1 % item_2
 print(result_division_loss)
+
+item_3 = 20
+item_3 +=10
+print(item_3)
+
+item_3 -= 5
+print(item_3)
+
+item_3 *= 3
+print(item_3)
+
+item_3 /= 2
+print(item_3)
+
+item_3 **= 2
+print(item_3)
+
+item_3 **= 0.5
+print(item_3)
+
+item_3 %= 2
+print(item_3)
+
+b_item_t = True
+b_item_f = False
+b_item_relult_sum = b_item_t + b_item_f
+print(b_item_relult_sum)
+
+b_item_relult_subtr =  b_item_t - b_item_f
+print(b_item_relult_subtr)
+
+b_item_relult_multi = b_item_t * b_item_f
+print(b_item_relult_multi)
+
+
+b_item_1_int = int (b_item_t)
+print(type (b_item_1_int))
+
+b_item_2_int = int (b_item_f)
+print(type(b_item_2_int))
+
+b_item_relult_division = b_item_t / b_item_f
+print(b_item_relult_division)
